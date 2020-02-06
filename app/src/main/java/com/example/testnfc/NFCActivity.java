@@ -7,14 +7,9 @@ import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.Log;
-
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-
 import com.example.testnfc.databinding.ActivityNfcBinding;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class NFCActivity extends AppCompatActivity {

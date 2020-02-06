@@ -24,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NFCActivity"> </activity>
+        <activity android:name=".NFCReceiveActivity"> </activity>
+        <activity android:name=".NFCSendActivity"> </activity>
     </application>
 
 </manifest>

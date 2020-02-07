@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.Test2.setOnClickListener(view->{
+            Intent intent  = new Intent(this,NFCTestActivity.class);
+            startActivity(intent);
+        });
+
     }
 
 }

@@ -51,5 +51,6 @@ public class NFCActivity extends AppCompatActivity {
             }
         }
         binding.text2.setText(s);
+        Log.d("ReceiveItem",s);
     }
 }

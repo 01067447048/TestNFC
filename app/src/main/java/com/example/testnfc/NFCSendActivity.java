@@ -54,6 +54,7 @@ public class NFCSendActivity extends AppCompatActivity {
         super.onResume();
         if(nfcAdapter !=null){
             nfcAdapter.setNdefPushMessage(ndefMessage,this);
+            nfcAdapter.enableForegroundNdefPush(this,ndefMessage);
         }
     }
 

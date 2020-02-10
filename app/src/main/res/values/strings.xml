@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestNFC</string>
+    <string name="service_name">CardService</string>
+    <string name="card_title">CardTitle</string>
 </resources>

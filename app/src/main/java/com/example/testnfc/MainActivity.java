@@ -38,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        binding.Card.setOnClickListener(view->{
+            Intent intent = new Intent(this,CardService.class);
+            startService(intent);
+        });
+
+        binding.Update.setOnClickListener(view->{
+            binding.count.setText("Count : "+Count.GetCurrentCount());
+        });
+
     }
 
 }

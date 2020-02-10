@@ -26,10 +26,10 @@ public class NFCReceiveActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_nfcreceiveactivity);
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
         if(nfcAdapter == null){
-            binding.text.setText("NFC가 꺼짐");
+            binding.count.setText("NFC가 꺼짐");
         }
         else{
-            binding.text.setText("NFC가 켜짐");
+            binding.count.setText("NFC가 켜짐");
         }
 
         Intent intent = new Intent(this,NFCActivity.class);
